@@ -6,7 +6,7 @@
 /*   By: elvictor <elvictor@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 18:54:55 by elvictor          #+#    #+#             */
-/*   Updated: 2026/10/22 19:39:28 by elvictor         ###   ########.fr       */
+/*   Updated: 2026/10/22 20:07:02 by elvictor         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -25,7 +25,7 @@ int main() {
         std::cout << b3 << std::endl;
 
         b3.incrementGrade();
-        std::cout << "After incriment: " << b3 << std::endl;
+        std::cout << "After increment: " << b3 << std::endl;
         
         b3.decrementGrade();
         std::cout << "After decrement: " << b3 << std::endl;
@@ -72,5 +72,5 @@ int main() {
     } catch (std::exception &e) {
         std::cerr << "Exception: " << e.what() << std::endl;
     }
-    
+    return 0;
 }
